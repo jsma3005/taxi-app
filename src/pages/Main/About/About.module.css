@@ -1,0 +1,20 @@
+.root{
+    background-color: #000;
+    padding: 5%;
+    color: #fff;
+    margin: 50px 0;
+}
+
+.root h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.root p{
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.root img{
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+.carImg{
+    text-align: center;
+}
+.carImg img{
+    width: 100px;
+}
+.CarInfoList{
+    list-style: none;
+    text-align: left;
+    margin-top: 20px;
+    padding: 0;
+}
+.CarInfoList p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Line */
+.line{
+    width: 80%;
+    margin: 20px auto;
+    height: 1px;
+    background: #ccc;
+}

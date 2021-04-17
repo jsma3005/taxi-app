@@ -1,0 +1,67 @@
+.main_banner{
+    padding-top: 80px;
+}
+
+.main_inner{
+    height: 100vh !important;
+    position: relative;
+    overflow: hidden;
+    max-height: 650px;
+}
+
+
+.main_right{
+    /* position: relative; */
+    overflow: hidden;
+}
+.main_right_content{
+    margin-top: 50px;
+    text-align: center;
+    z-index: 6;
+    position: relative;
+    color: #fff;
+}
+.main_right_content h1{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.skew{
+    width: 2000px;
+    height: 2000px;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    left: 51%;
+    top: 0;
+    z-index: 5;
+    transform: skew(18deg, 42deg);
+}
+
+/* Swiper */
+.rec-carousel-item div{
+    outline: none;
+}
+.main_left img{
+    width: 100%;
+}
+.react-datepicker-wrapper{
+    width: 100%;
+    outline: none;
+}
+.react-datepicker-wrapper input{
+    border: none;
+    width: 100% !important;
+    outline: none;
+}
+
+
+/* Find btn */
+.findBtn{
+    color: #fff;
+    background: linear-gradient(65deg, #0270D7 0, #0F8AFD 100%) !important;
+    border: none !important;
+}
+.findBtn:hover{
+    background: linear-gradient(65deg, #0261b9 0, #0d6bc4 100%) !important;
+    border: none !important;
+}

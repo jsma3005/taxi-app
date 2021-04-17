@@ -1,0 +1,18 @@
+.listGroup{
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.formGroup{
+    position: relative;
+}
+
+.listItem{
+    width: 100%;
+}
+.listItem:focus, .listItem:active{
+    outline: none;
+}

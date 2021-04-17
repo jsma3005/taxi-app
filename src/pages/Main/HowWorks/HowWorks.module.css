@@ -1,0 +1,80 @@
+.title
+{
+ padding: 50px;
+ font-size: 60px;
+ font-weight: 700;
+}
+.how_it_works{
+    text-align: center;
+}
+.how_it_works img{
+    padding: 25px;
+    background-color: rgb(255, 250, 186);
+    border-radius: 50%;
+    border: 1px solid silver;
+}
+
+.how_it_works svg{
+    text-shadow: 0px 0px 20px #fff !important; 
+}
+
+/* Icons */
+.icons{
+    padding: 30px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 30px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+
+.line{
+    width: 1px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: silver;
+}
+
+.img_1::before{
+    content: 'Поиск в 2 клика';
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    left: 28%;
+    top: 5%;
+}
+.img_2::after{
+    content: 'Выбор водителя';
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    left: 57%;
+    top: 5%;
+}
+.img_3::before{
+    content: 'Связь с водителем';
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    left: 25%;
+    top: 5%;
+}
+.img_4::before{
+    content: 'Успешная поездка';
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    left: 57%;
+    top: 20%;
+}
+
+
+@media screen and (max-width: 1200px){
+    .img_1::before{
+        left: 25%;
+    }
+    .img_3::before{
+        left: 22%;
+    }
+}

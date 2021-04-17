@@ -1,0 +1,169 @@
+.root{
+    padding-top: 100px;
+}
+
+
+/* From and To */
+.from, .to{
+    padding: 20px 50px;
+    display: inline;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-top: 100px;
+    color: #fff;
+    position: relative;
+}
+
+/* distance */
+.distance{
+    margin-bottom: 100px !important;
+}
+
+/* Line */
+.line{
+    position: absolute;
+    width: 60%;
+    height: 3px;
+    background-color: #000;
+    left: 67%;
+    top: 50%;
+}
+.line::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: -3%;
+    top: -6px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+.line::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 100%;
+    top: -6px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+.line span{
+    font-size: 20px;
+    position: absolute;
+    top: -30px;
+    left: 45%;
+    font-weight: bold;
+}
+
+
+/* UserInfo */
+.userInfo, .carInfo{
+    padding: 50px;
+}
+.userInitial img{
+    width: 80px;
+    margin-bottom: 1rem;
+}
+.userInitial{
+    text-align: center;
+}
+
+
+/* Spinner */
+.spinnerContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinner{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/* About */
+.about ul{
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+}
+.about li{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.about li span{
+    font-weight: bold;
+}
+
+
+/* Car */
+.carImg{
+    text-align: center;
+}
+.carImg img{
+    width: 120px;
+}
+.carAbout{
+    text-align: center;
+}
+.carAbout ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.carAbout li{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.carAbout li span{
+    font-weight: bold;
+}
+
+
+/* Price */
+.price{
+    background-color: #343a40;
+    color: #fff;
+    display: inline;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Prefers */
+.prefers h2{
+    margin-bottom: 50px;
+}
+.prefers ul{
+    list-style: disc;
+    text-align: center;
+    list-style-position: inside !important;
+}
+.prefers ul li{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+/* Extra info */
+.extraInfo{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 20px;
+}
+.extraInfo p{
+    margin: 30px 0;
+}
+.card{
+    width: 60%;
+    margin: 20px auto;
+}
+
+/* Connect */
+.connect{
+    text-align: center;
+}
+.connect a{
+    margin: 0px 20px;
+}

@@ -1,0 +1,19 @@
+.statsInfo svg{
+    font-size: 70px;
+    color: rgb(214, 82, 82);
+}
+.statsInfo{
+    text-align: center;
+}
+
+.statsList{
+    list-style: none;
+    text-align: left;
+    margin-top: 20px;
+    padding: 0px;
+}
+.statsList p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,42 @@
+.main{
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif !important;
+    padding: 100px 0;
+}
+
+.card{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 1px 6px 32px 0 rgba(75, 81, 91, 0.11);
+    border: none !important;
+}
+
+.card img{
+    width: 100px;
+    margin: 20px auto;
+}
+
+.title{
+    width: 70%;
+    margin: 20px auto;
+}
+
+.formGroup{
+    width: 50%;
+    margin: 10px auto;
+}
+
+.formControl{
+    height: 50px !important;
+}
+
+.btn{
+    width: 50%;
+    margin: 10px auto;
+    height: 50px;
+}
+
+.auth p{
+    margin-top: 10px;
+}

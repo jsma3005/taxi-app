@@ -1,0 +1,39 @@
+.navbar{
+    padding: 20px 10% !important;
+    width: 100%;
+    position: fixed !important;
+    background-color: #fff;
+    z-index: 999999999;
+    max-width: 1370px;
+}
+.nav-link{
+    color: #000 !important;
+    font-weight: 600;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/* UserCab */
+.userCab{
+    color: #fff;
+    border: none !important;
+    background: linear-gradient(65deg, #0270D7 0, #0F8AFD 100%) !important;
+}
+.userCab:hover{
+    border: none !important;
+    background: linear-gradient(65deg, #0261b9 0, #0d6bc4 100%) !important;
+}
+.userCab:active, .userCab:focus{
+    box-shadow: none !important;
+}
+
+@media screen and (max-width: 992px){
+    .navbar{
+        text-align: center;
+    }
+    .navbar form{
+        justify-content: center;
+    }
+}

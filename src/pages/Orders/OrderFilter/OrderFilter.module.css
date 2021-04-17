@@ -1,0 +1,23 @@
+.root{
+    padding: 0 20%;
+    margin: 50px 0;
+    position: relative;
+    z-index: 99999999 !important;
+}
+.listGroup{
+    position: absolute;
+    width: 100%;
+    z-index: 99999999999 !important;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.formGroup{
+    position: relative;
+    z-index: 999999999999999 !important;
+}
+
+.buttonContainer{
+    text-align: center;
+    margin: 10px 0 0 0;
+}

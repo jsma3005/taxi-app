@@ -1,0 +1,86 @@
+.root{
+    padding-bottom: 50px;
+}
+
+main{
+    padding-top: 50px;
+}
+.main_banner{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background: url('img/banner2.jpg') center / cover fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.main_banner h1{
+    z-index: 10;
+    font-weight: bold;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.842);
+}
+.main_banner::before{
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+}
+
+
+/* Thead */
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+.thead{
+    background: rgba(0,0,0,.9);
+ 
+    border-radius: 20px;
+    margin: 50px 0;
+    border-left: 4px solid gold;
+    border-right: 4px solid gold;
+    
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+.nav ul{
+    display: inline-flex;
+    margin: 30px 0;
+    list-style: none;
+}
+.nav ul li{
+    color:gold;
+    font-size: 16px;
+    margin: 0 20px;
+}
+.nav ul li i{
+    color: gold;
+}
+
+
+/* Form */
+.form{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* addOrderBtn */
+
+.addOrderBtn{
+    color: #fff;
+    background: linear-gradient(65deg, #0270D7 0, #0F8AFD 100%) !important;
+    border: none !important;
+}
+.addOrderBtn:hover{
+    background: linear-gradient(65deg, #0261b9 0, #0d6bc4 100%) !important;
+    border: none !important;
+}
